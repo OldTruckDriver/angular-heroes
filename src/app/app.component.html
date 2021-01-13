@@ -1,0 +1,16 @@
+<h2>{{title}}</h2>
+<nav>
+  <button mat-raised-button (click)="Clickme()" routerLink="/dashboard">
+    dashboard
+  </button>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

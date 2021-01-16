@@ -1,10 +1,12 @@
 <h2>{{title}}</h2>
-<nav>
-  <button mat-raised-button (click)="Clickme()" routerLink="/dashboard">
-    dashboard
-  </button>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a>
+<nav class="nav-background">
+	<a (click)="Clickme()" routerLink="/dashboard">Hello World
+		<!-- <button mat-raised-button (click)="Clickme()" routerLink="/dashboard">
+    Hello World
+  </button> -->
+	</a>
+	<a routerLink="/dashboard">Dashboard</a>
+	<a routerLink="/heroes">Heroes</a>
 </nav>
 <router-outlet></router-outlet>
 <app-messages></app-messages>
